@@ -19,11 +19,11 @@ export default function Home() {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-pink-600 mb-4">About Me</h2>
            <p className="text-lg ">
-            Hello! I'm <span className="font-semibold">Emily </span>, a passionate web developer based in Zimbabwe.
+            Hello! I am <span className="font-semibold">Emily </span>, a passionate web developer based in Zimbabwe.
             I love creating beautiful and user-friendly experiences with clean, accessible code.
              My journey in web development has been driven by a love for design and technology, and I strive to create
             user-friendly interfaces that leave a lasting impression.
-            I’m currently exploring full-stack development, with a special interest in React Native and secure backend systems.
+            I am currently exploring full-stack development, with a special interest in React Native and secure backend systems.
           </p>
         </div>
       </section>
