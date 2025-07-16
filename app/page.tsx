@@ -35,7 +35,7 @@ export default function Home() {
                 <br /><br />
                 I specialize in responsive front-end development using <span className="text-[#0f172a] font-bold">React</span> and <span className="text-[#0f172a] font-bold">Tailwind CSS</span>, and I’m diving deep into full-stack technologies like <span className="font-bold">NestJS</span> and <span className="font-bold">React Native</span>.
               </p>
-              <p className="italic text-sm text-gray-500">"Building with love, designing with purpose."</p>
+              <p className="italic text-sm text-gray-500">&quot;Building with love, designing with purpose.&quot;</p>
               <a
                 href="/EmilyMachawira-Resume.pdf"
                 download
@@ -168,11 +168,11 @@ export default function Home() {
       <section id="contact" className="bg-[#e0f2fe] min-h-screen text-black px-6 py-20 flex items-center">
   <div className="max-w-4xl mx-auto w-full">
     <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center text-[#0f172a]">
-      Let's Connect
+      Lets Connect
     </h2>
 
     <p className="text-center text-lg max-w-2xl mx-auto mb-10">
-      I'm always open to discussing new opportunities, creative ideas, or ways I can help with your project.
+      I&apos;m always open to discussing new opportunities, creative ideas, or ways I can help with your project.
       Whether you want to collaborate or just say hello — feel free to reach out!
     </p>
 
