@@ -24,3 +24,67 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* .bubble {
+  position: absolute;
+  bottom: -100px;
+  border-radius: 50%;
+  background: rgba(255, 105, 108, 0.2);
+  pointer-events: none;
+  animation: floatUp 20s infinite ease-in;
+}
+
+.bubble-0 {
+  width: 40px;
+  height: 40px;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.bubble-1 {
+  width: 25px;
+  height: 25px;
+  left: 30%;
+  animation-delay: 5s;
+}
+
+.bubble-2 {
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  animation-delay: 10s;
+}
+
+.bubble-3 {
+  width: 20px;
+  height: 20px;
+  left: 70%;
+  animation-delay: 2s;
+}
+
+.bubble-4 {
+  width: 35px;
+  height: 35px;
+  left: 85%;
+  animation-delay: 8s;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(-120vh) scale(0.8);
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0) scale(1.2);
+    opacity: 0;
+  }
+} */
+

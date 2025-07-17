@@ -2,26 +2,49 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl mx-auto py-20">
-            <div className="flex-1 text-left md:pr-38 order-2 md:order-1 ">
-                <h1 className="text-6xl font-bold text-gray-800 mb-4">Emily Machawira</h1>
-                <div className="h-1 w-24 bg-pink-500 mb-6"></div>
-                <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-                    Creative developer passionate about building beautiful and functional web experiences.
-                </p>
-                <button className="bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600 transition-colors">
-                    Get in touch
-                </button>
+        <section className="relative w-full  overflow-hidden bg-[#0f172a]">
+            {/* Hero Background */}
+            <div className="w-full  h-[40vh] relative">
+                <Image
+                    src="/banner.jpg" // Replace with your banner image
+                    alt="Hero Background"
+                    fill
+                    className="object-cover"
+                    priority
+                />
             </div>
 
-            <div className="flex-1 order-1 md:order-2 mb-12 md:mb-0">
-                <div className="relative w-80 h-96 md:w-[28rem] md:h-[32rem] mx-auto">
+            {/* Profile Content */}
+            <div className="flex flex-col  items-left -mt-16 px-18 text-center relative md:text-right">
+                {/* Profile Image */}
+                <div className="w-64 h-64 rounded-full overflow-hidden border-6 border-[#e0f2fe] shadow-md">
                     <Image
-                        src="/emily.png"
-                        alt="Profile"
-                        width={900}
-                        height={900}
-                        className="rounded-full object-cover shadow-lg"
+                        src="/emily.png" // Replace with your profile image
+                        alt="Emily Machawira"
+                        width={256}
+                        height={256}
+                        className="object-cover"
+                        priority
+                    />
+                </div>
+            </div>
+
+            <div className="flex flex-col items-center -mt-24 mb-10">
+                {/* Headings */}
+                <h1 className="text-3xl md:text-6xl font-bold text-[#e0f2fe] mb-6"> DEVELOPER</h1>
+                <p className="text-lg text-[#e0f2fe] max-w-xl text-center z-5 ">
+                    Creative developer passionate about building beautiful and functional web experiences,
+                    where clean code meets stunning design – creating user-friendly digital products that leave a lasting impression.
+                </p>
+
+                {/* Signature */}
+                <div className="-mt-6">
+                    <Image
+                        src="/Signature.png"
+                        alt="Signature"
+                        width={300}
+                        height={300}
+                        priority
                     />
                 </div>
             </div>
